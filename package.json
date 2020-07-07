@@ -1,0 +1,21 @@
+{
+  "name": "courseWork",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Arkady Rubtsov",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "ngrok": "^3.2.7",
+    "parcel-bundler": "^1.12.4",
+    "three": "^0.116.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}

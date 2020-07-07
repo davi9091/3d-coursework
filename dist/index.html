@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>canvas {display: block}
+    body {margin: 0}
+    .controls {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 300px;
+      opacity: 0.3;
+      background-color: white;
+      transition: opacity 300ms;
+    }
+
+    .controls:hover {
+      opacity: 1;
+    }
+
+    .flex-box {
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .author {
+      justify-content: space-around;
+      font-size: 12px;
+    }</style>
+</head>
+<body>
+  <div class="controls">
+    <div class="flex-box">
+      <label for="cameraRadiusInput">Camera radius</label>
+      <input type="range" id="cameraRadiusInput" min="10" max="80">
+    </div>
+
+    <div class="flex-box">
+      <label for="cameraRotationInput">Camera rotation</label>
+      <input type="range" id="cameraRotationInput" step="0.00005" min="0.0001" max="0.001">
+    </div>
+
+    <div class="flex-box author">
+      Done by Arkady Rubtsov in 2020
+    </div>
+  </div>
+  <script src="/course.e31bb0bc.js"></script>
+</body>
+</html>
